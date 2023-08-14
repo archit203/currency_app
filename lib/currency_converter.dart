@@ -74,7 +74,8 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
                 elevation: const MaterialStatePropertyAll(5),
                 shape: MaterialStatePropertyAll(RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10)
-                ))
+                )),
+                minimumSize: const MaterialStatePropertyAll(Size(double.infinity, 50))
               ),
               child: const Text('Convert')),
             ),
